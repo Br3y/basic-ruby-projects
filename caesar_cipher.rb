@@ -1,4 +1,4 @@
-def caesar_cipher()
+def caesar_cipher(string, num)
 
 end
 
