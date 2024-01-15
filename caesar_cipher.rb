@@ -7,4 +7,4 @@ cipher = gets.chomp.to_s
 print "Input a Number (Key): "
 key = gets.chomp.to_i
 
-caesar_cipher(cipher, key)
+caesar_cipher(cipher = "What a string!", key = 5)
