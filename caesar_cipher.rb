@@ -1,5 +1,5 @@
 def caesar_cipher(string, num)
-
+    array = string.split("")
 end
 
 print "Input a String: "
