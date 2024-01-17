@@ -3,6 +3,10 @@ def caesar_cipher(string, num)
     array.map do |arr|
         if arr[/[[:upper:]]/]
             
+        elsif arr[/[[:lower:]]/]
+
+        else
+            
         end 
     end
 end
