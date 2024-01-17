@@ -2,11 +2,11 @@ def caesar_cipher(string, num)
     array = string.split("")
     array.map do |arr|
         if arr[/[[:upper:]]/]
-            
+            (((arr.ord - 'A'.ord) + num) % 26 + 'A'.ord).chr
         elsif arr[/[[:lower:]]/]
-
+            (((arr.ord - 'a'.ord) + num) % 26 + 'a'.ord).chr
         else
-            
+            arr
         end 
     end
 end
