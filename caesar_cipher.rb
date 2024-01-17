@@ -9,6 +9,7 @@ def caesar_cipher(string, num)
             arr
         end 
     end
+    return caesar.join
 end
 
 print "Input a String: "
