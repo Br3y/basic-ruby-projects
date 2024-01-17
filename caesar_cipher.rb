@@ -1,5 +1,10 @@
 def caesar_cipher(string, num)
     array = string.split("")
+    array.map do |arr|
+        if arr[/[[:upper:]]/]
+            
+        end 
+    end
 end
 
 print "Input a String: "
