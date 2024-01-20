@@ -1,4 +1,4 @@
-def substrings(string, num)
+def substrings(string, dictionary)
 
 end
 
