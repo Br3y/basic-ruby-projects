@@ -2,7 +2,8 @@ def substrings(string, dictionary)
     string.downcase!
     result = Hash.new(0)
     dictionary.each do |sub_string|
-        
+        if string.include?(sub_string)
+        end
     end
 end
 
