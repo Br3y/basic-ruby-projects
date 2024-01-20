@@ -3,6 +3,7 @@ def substrings(string, dictionary)
     result = Hash.new(0)
     dictionary.each do |sub_string|
         if string.include?(sub_string)
+            result[sub_string] = string.scan(sub_string).length
         end
     end
 end
