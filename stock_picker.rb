@@ -11,7 +11,9 @@ def stock_picker(array)
             next if sell_day <= buy_day
 
             profit = best_to_sell - best_to_buy
-            
+
+            if profit > max_profit
+            end
         end
     end
 end
