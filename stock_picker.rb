@@ -22,5 +22,8 @@ def stock_picker(array)
 end
 
 p stock_picker([17,3,6,9,15,8,6,1,10])
+p stock_picker([8, 12, 6, 2, 10, 14, 11, 13])
+p stock_picker([3, 1])
+p stock_picker([3, 1, 5])
 # expected output
 # [1,4]  # for a profit of $15 - $3 == $12
