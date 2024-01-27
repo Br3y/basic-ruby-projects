@@ -2,6 +2,9 @@ def stock_picker(array)
     if array.length < 2 
         return nil
     end
+
+    max_profit = 0
+    best_day = [] 
 end
 
 stock_picker([17,3,6,9,15,8,6,1,10])
