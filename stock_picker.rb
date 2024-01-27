@@ -9,6 +9,9 @@ def stock_picker(array)
     array.each_with_index do |best_to_buy, buy_day|
         array.each_with_index do |best_to_sell, sell_day|
             next if sell_day <= buy_day
+
+            profit = best_to_sell - best_to_buy
+            
         end
     end
 end
