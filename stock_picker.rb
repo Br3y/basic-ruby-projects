@@ -13,6 +13,7 @@ def stock_picker(array)
             profit = best_to_sell - best_to_buy
 
             if profit > max_profit
+                max_profit = profit
             end
         end
     end
