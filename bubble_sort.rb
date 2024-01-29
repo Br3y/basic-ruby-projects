@@ -9,4 +9,5 @@ def bubble_sort(array)
              end
         end
     end
+    array
 end
