@@ -11,3 +11,7 @@ def bubble_sort(array)
     end
     array
 end
+
+p bubble_sort([4,3,78,2,0,2])
+p bubble_sort([12,56,34,9,2,45,67])
+p bubble_sort([237,414,139,582,349,582,672])
